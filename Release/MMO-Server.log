@@ -1,0 +1,23 @@
+﻿  main.cpp
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QAE@PBDABVlocale@std@@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Thread::terminate(void)" (__imp_?terminate@Thread@sf@@QAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Thread::launch(void)" (__imp_?launch@Thread@sf@@QAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Thread::~Thread(void)" (__imp_??1Thread@sf@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: __thiscall sf::NonCopyable::~NonCopyable(void)" (__imp_??1NonCopyable@sf@@IAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: __thiscall sf::NonCopyable::NonCopyable(void)" (__imp_??0NonCopyable@sf@@IAE@XZ)
+C:\Users\Andru\source\repos\OOP\Release\MMO-Server.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  Generating code
+  2 of 330 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: __thiscall sf::NonCopyable::NonCopyable(void)" (__imp_??0NonCopyable@sf@@IAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) protected: __thiscall sf::NonCopyable::~NonCopyable(void)" (__imp_??1NonCopyable@sf@@IAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Thread::~Thread(void)" (__imp_??1Thread@sf@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Thread::launch(void)" (__imp_?launch@Thread@sf@@QAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Thread::terminate(void)" (__imp_?terminate@Thread@sf@@QAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QAE@PBDABVlocale@std@@@Z)
+C:\Users\Andru\source\repos\OOP\Release\MMO-Server.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  MMO-Server.vcxproj -> C:\Users\Andru\source\repos\OOP\Release\MMO-Server.exe

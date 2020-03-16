@@ -1,0 +1,16 @@
+﻿  main.cpp
+  SocketManager.cpp
+SocketManager.obj : error LNK2001: unresolved external symbol "public: static class std::list<class sf::TcpSocket *,class std::allocator<class sf::TcpSocket *> > * SocketManager::sockets" (?sockets@SocketManager@@2PEAV?$list@PEAVTcpSocket@sf@@V?$allocator@PEAVTcpSocket@sf@@@std@@@std@@EA)
+SocketManager.obj : error LNK2001: unresolved external symbol "public: static class sf::Time const sf::Time::Zero" (?Zero@Time@sf@@2V12@B)
+SocketManager.obj : error LNK2001: unresolved external symbol "public: static class sf::IpAddress const sf::IpAddress::Any" (?Any@IpAddress@sf@@2V12@B)
+C:\Users\Andru\source\repos\OOP\x64\Release\MMO-Server.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  Generating code
+  4 of 433 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+SocketManager.obj : error LNK2001: unresolved external symbol "public: static class sf::IpAddress const sf::IpAddress::Any" (?Any@IpAddress@sf@@2V12@B)
+SocketManager.obj : error LNK2001: unresolved external symbol "public: static class sf::Time const sf::Time::Zero" (?Zero@Time@sf@@2V12@B)
+SocketManager.obj : error LNK2001: unresolved external symbol "public: static class std::list<class sf::TcpSocket *,class std::allocator<class sf::TcpSocket *> > * SocketManager::sockets" (?sockets@SocketManager@@2PEAV?$list@PEAVTcpSocket@sf@@V?$allocator@PEAVTcpSocket@sf@@@std@@@std@@EA)
+C:\Users\Andru\source\repos\OOP\x64\Release\MMO-Server.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  MMO-Server.vcxproj -> C:\Users\Andru\source\repos\OOP\x64\Release\MMO-Server.exe
