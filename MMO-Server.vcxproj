@@ -76,11 +76,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Programming\sfml vs 17\SFML-2.5.1 x64\include;C:\Users\Andru\Downloads\test\SQLAPI\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)include\SFML;$(SolutionDir)include\SQLAPI</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib;C:\Users\Andru\Downloads\test\SQLAPI\vs2019\x86_64\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\SMFL;$(SolutionDir)lib\SQLAPI</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-system-d.lib;sfml-network-d.lib;%(AdditionalDependencies);sqlapid.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -120,14 +120,14 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Programming\sfml vs 17\SFML-2.5.1 x64\include;C:\Users\Andru\Downloads\test\SQLAPI\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)include\SFML;$(SolutionDir)include\SQLAPI</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>SFML_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib;C:\Users\Andru\Downloads\test\SQLAPI\vs2019\x86_64\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\SMFL;$(SolutionDir)lib\SQLAPI</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-system.lib;sfml-network.lib;%(AdditionalDependencies);sqlapid.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

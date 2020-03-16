@@ -2,7 +2,7 @@
 
 AccountCommands::AccountCommands()
 {
-	CommandManager::get_callbacks["login"] = &AccountCommands::Login;
+	//CommandManager::get_callbacks["login"] = &AccountCommands::Login;
 }
 
 AccountCommands::~AccountCommands()

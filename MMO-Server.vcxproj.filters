@@ -16,14 +16,14 @@
     <Filter Include="dlls">
       <UniqueIdentifier>{435b6d91-f000-4ec8-8bab-393bd2632dd3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\dlls">
-      <UniqueIdentifier>{f83e4e23-b920-412a-8b9a-6e74307755eb}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Comands">
       <UniqueIdentifier>{6dd2fb12-c481-456f-9d77-4340d1f159a3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Commands">
       <UniqueIdentifier>{ac245bb6-0806-4b9e-8e6d-496fce06dc8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{9f01dbbe-2d43-48a0-916f-b7afe263de43}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -61,21 +61,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="..\..\..\..\..\..\Programming\sfml vs 17\SFML-2.5.1 x64\bin\sfml-system-d-2.dll">
-      <Filter>Header Files\dlls</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\..\..\..\..\Programming\sfml vs 17\SFML-2.5.1 x64\bin\sfml-network-2.dll">
-      <Filter>Header Files\dlls</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\..\..\..\..\Programming\sfml vs 17\SFML-2.5.1 x64\bin\sfml-network-d-2.dll">
-      <Filter>Header Files\dlls</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\..\..\..\..\Programming\sfml vs 17\SFML-2.5.1 x64\bin\sfml-system-2.dll">
-      <Filter>Header Files\dlls</Filter>
-    </CopyFileToFolders>
-    <CopyFileToFolders Include="..\..\..\..\..\..\Program Files\MySQL\MySQL Server 8.0\lib\libmysql.dll">
-      <Filter>Header Files\dlls</Filter>
-    </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\..\..\Downloads\test\SQLAPI\vs2019\x86_64\bin\sqlapi.dll">
       <Filter>dlls</Filter>
     </CopyFileToFolders>
@@ -86,6 +71,21 @@
       <Filter>dlls</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\..\..\Downloads\test\SQLAPI\vs2019\x86_64\bin\sqlapiud.dll">
+      <Filter>dlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\..\..\..\..\Program Files\MySQL\MySQL Server 8.0\lib\libmysql.dll">
+      <Filter>dlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\..\..\..\..\Programming\sfml vs 17\SFML-2.5.1 x64\bin\sfml-network-2.dll">
+      <Filter>dlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\..\..\..\..\Programming\sfml vs 17\SFML-2.5.1 x64\bin\sfml-network-d-2.dll">
+      <Filter>dlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\..\..\..\..\Programming\sfml vs 17\SFML-2.5.1 x64\bin\sfml-system-2.dll">
+      <Filter>dlls</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\..\..\..\..\Programming\sfml vs 17\SFML-2.5.1 x64\bin\sfml-system-d-2.dll">
       <Filter>dlls</Filter>
     </CopyFileToFolders>
   </ItemGroup>
